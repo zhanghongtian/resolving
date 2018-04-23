@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="zhangWeb:war">
+    <output-path>$USER_HOME$/eclipse-workspace/zhangWeb/target</output-path>
+    <root id="archive" name="zhangWeb-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="zhangWeb:war exploded" />
+    </root>
+  </artifact>
+</component>

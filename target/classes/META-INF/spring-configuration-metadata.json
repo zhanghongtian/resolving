@@ -1,0 +1,37 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.chengjuiot.util.FileUrlConfig",
+      "name": "file",
+      "type": "com.chengjuiot.util.FileUrlConfig"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.chengjuiot.util.FileUrlConfig",
+      "name": "file.lookup-prefix",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.chengjuiot.util.FileUrlConfig",
+      "name": "file.mulu-path",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.chengjuiot.util.FileUrlConfig",
+      "name": "file.oss-host",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.chengjuiot.util.FileUrlConfig",
+      "name": "file.replace-str",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.chengjuiot.util.FileUrlConfig",
+      "name": "file.zhangjie-path",
+      "type": "java.lang.String"
+    }
+  ]
+}
