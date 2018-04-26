@@ -8,9 +8,26 @@ import org.springframework.stereotype.Component;
 public class FileUrlConfig {
     private String mulu_path;
     private String zhangjie_path;
+    private String linshiDir;
+    private String index_path;
     private String replaceStr;
     private String oss_host;
     private String LookupPrefix;
+    public String getIndex_path() {
+        return index_path;
+    }
+
+    public String getLinshiDir() {
+        return linshiDir;
+    }
+
+    public void setLinshiDir(String linshiDir) {
+        this.linshiDir = linshiDir;
+    }
+
+    public void setIndex_path(String index_path) {
+        this.index_path = index_path;
+    }
 
     public String getLookupPrefix() {
         return LookupPrefix;
