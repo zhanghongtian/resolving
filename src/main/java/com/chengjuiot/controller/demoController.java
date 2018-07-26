@@ -38,16 +38,16 @@ public class demoController {
 
 
 
-
-    @RequestMapping("/saveBookDB")
-    @ResponseBody
-    public void saveBookDB() {
-        try {
-            bookService.saveBookAndBookLog();
-        }catch (Exception e) {
-            throw new GlobalException(new CodeMsg(0,e.getMessage()));
-        }
-    }
+//    2018-07-25
+//    @RequestMapping("/saveBookDB")
+//    @ResponseBody
+//    public void saveBookDB() {
+//        try {
+//            bookService.saveBookAndBookLog();
+//        }catch (Exception e) {
+//            throw new GlobalException(new CodeMsg(0,e.getMessage()));
+//        }
+//    }
 
     @RequestMapping("/getBook")
     @ResponseBody
